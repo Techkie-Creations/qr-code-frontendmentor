@@ -1,0 +1,28 @@
+body {
+    background-color: #C7E9FA;
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 235px;
+    margin: 15% auto 0 auto;
+    border: 10px solid white;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.card, img {
+    border-radius: 10px;
+}
+
+.attribution { 
+    font-size: 15px; 
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
